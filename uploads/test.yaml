@@ -1,8 +1,8 @@
 pingfederate-admin:
   enabled: true
   image:
-    name: ping-federate-alpine
-    tag: 1.0.44
+    name: 12.2.0-alpine_3.21.2-al17-edge
+    tag: 12.2.0-alpine_3.21.2-al17-edge
   secretVolumes:
     pingfederate-license:
       items:
@@ -42,8 +42,8 @@ pingfederate-admin:
 pingfederate-engine:
   enabled: true
   image:
-    name: ping-federate-alpine
-    tag: 1.0.44
+    name: 12.2.0-alpine_3.21.2-al17-edge
+    tag: 12.2.0-alpine_3.21.2-al17-edge
   # imagePullSecrets:
   #   - name: jfrog-registry-secret
   secretVolumes:
